@@ -84,6 +84,13 @@ body{
 .half-fill{
     color: #FFC014;
 }
+#next-button{
+    margin-left: 1570px;
+    text-decoration: none;
+    color: rgb(146, 56, 146);
+    font-size: 22px;
+    font-weight: 700;
+}
  /* -------Parthner Styles------- */
 .container{
     display: flex;
