@@ -4,4 +4,121 @@
 /* common styles and utilities */
 body{
     font-family: 'Oswald', sans-serif;
+    background-color: rgb(236, 236, 236);
 }
+.header-title{
+    margin-left: 120px;
+}
+
+.influencer-detail{
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------item details--------- */
+#section-title{
+    font-size: 60px;
+    font-weight: 700;
+    color: royalblue;
+}
+.item-detail{
+    margin-top: 30px;
+    margin-right: 450px;
+    margin-left: 200px;
+    width: 540px;
+    
+}
+.margin-bottom{
+    margin-bottom: 40px;
+}
+.item-pic{
+    margin-top: 70px;
+    margin-right: 300px;
+    height: 414px;
+    width: 440px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 8px 15px;
+    border-radius: 18px;
+}
+
+/* ------Popular Products styles------ */
+.popular-item{
+    margin-top: 65px;
+}
+.products-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 120px;
+    margin-right: 100px;
+}
+.product{
+    background-color: white;
+    border-radius: 15px;
+   margin: 20px 115px;
+   padding: 10px 10px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-info{
+    margin-right: 50px;
+}
+.flexable{
+    display: flex;
+}
+.filled{
+    color: #FFC014;
+}
+
+.half-fill{
+    color: #FFC014;
+}
+ /* -------Parthner Styles------- */
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 90px;
+
+}
+.parthner-pic img{
+    width: 450px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 220px;
+}
+.parthner{
+    padding: 50px 150px;flex-wrap: wrap;
+    margin-right: 150px;
+}
+ /* -------footer styles------- */
+ footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 40px 10px;
+     background-color: #0A0826;
+     color: white;
+
+ }
+ .social-icon{
+    margin: 5px 10px;
+ }
+ .fab{
+     padding: 5px 5px;
+     border-radius: 15px;
+     font-size: 30px;
+     color: white;
+     background-color: #110f41;   
+ }
+  /* -------------End------------- */
