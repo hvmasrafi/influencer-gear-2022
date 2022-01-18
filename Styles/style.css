@@ -11,8 +11,8 @@ body{
 }
 
 .influencer-detail{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* ----------item details--------- */
@@ -95,17 +95,16 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    margin: 50px 90px;
-
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 190px;
 }
 .parthner-pic img{
     width: 450px;
     height: 300px;
-    padding-top: 50px;
-    padding-left: 220px;
 }
-.parthner{
-    padding: 50px 150px;flex-wrap: wrap;
+.parthner-info{
+    padding: 50px 50px;
     margin-right: 150px;
 }
  /* -------footer styles------- */
@@ -128,4 +127,45 @@ body{
      color: white;
      background-color: #110f41;   
  }
+  /* -----------------
+        Media Query
+    ---------------- */
+
+   /* ------Mobile Device------ */
+@media only screen and (max-width:688px) {
+    
+    .influencer-detail{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .item-detail {
+    width: 50%;
+    margin-left: 40px;
+    }
+    .products-title{
+        margin-left: 60px;
+    }
+    .products{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 35px;
+    }
+    #next-button{
+        margin-left: 270px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 55px;
+    }
+    footer{
+        width: 410px;
+    }
+
+    
+
+    
+}
   /* -------------End------------- */
