@@ -24,7 +24,7 @@ body{
 .item-detail{
     margin-top: 30px;
     margin-right: 450px;
-    margin-left: 200px;
+    margin-left: 220px;
     width: 540px;
     
 }
@@ -84,7 +84,7 @@ body{
 .half-fill{
     color: #FFC014;
 }
-#next-button{
+.next-button{
     margin-left: 1570px;
     text-decoration: none;
     color: rgb(146, 56, 146);
@@ -94,16 +94,15 @@ body{
  /* -------Parthner Styles------- */
 .container{
     display: flex;
-    justify-content: center;
     margin-top: 50px;
     margin-bottom: 70px;
     margin-left: 190px;
 }
 .parthner-pic img{
-    width: 450px;
-    height: 300px;
+    width: 80%;
 }
 .parthner-info{
+    width: 50%;
     padding: 50px 50px;
     margin-right: 150px;
 }
@@ -152,20 +151,40 @@ body{
         justify-content: center;
         margin-left: 35px;
     }
-    #next-button{
+    .next-button{
         margin-left: 270px;
     }
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 55px;
+        margin-left: 60px;
     }
     footer{
         width: 410px;
     }
+}
 
-    
-
-    
+/* -----------tablet device------------ */
+@media only screen and ( min-width:688px ) and ( max-width:992px ) {
+    .item-detail{
+        margin-left: 110px;
+    }
+    .products-title{
+    width: 500px;
+    margin-left: 520px;
+    }
+    .products{
+     grid-template-columns:repeat(2,1fr);   
+     margin-left: 220px;
+    }
+    .next-button{
+    margin-left: 550px;
+    }
+    .container{
+    width: 1330PX;
+    }
+    footer{
+    width: 1510px;
+    }
 }
   /* -------------End------------- */
